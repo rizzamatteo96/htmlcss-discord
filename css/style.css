@@ -10,7 +10,7 @@ body{
 
 header{
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
@@ -18,10 +18,9 @@ header{
 
 header nav{
     width: 80%;
-    height: 20%;
+    height: 15%;
     margin: 0 auto;
     position: relative;
-    padding: 20px 0;
 }
 
 header nav>*{
@@ -57,33 +56,72 @@ header nav ul li a{
     font-weight: 700;
 }
 
-.btn{
+nav .small-btn{
     padding: 10px 15px;
+}
+
+/* button */
+.btn{
+    padding: 15px 30px;
     border-radius: 50px;
     border: none;
 }
 
 .btn:hover{
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.btn.wh-bk:hover{
     color: #628cf7;
 }
 
+.btn.bk-wh:hover{
+    background-color: rgb(49, 49, 49);
+}
 
+.wh-bk{
+    background-color: white;
+    color: black;
+}
 
-.jumbotron{
-    width: 100%;
+.bk-wh{
+    background-color: black;
+    color: white;
 }
 
 
+/* jumbotron */
+.jumbotron{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 15%);
+}
 
-/* DEBUG - DA ELIMINARE*/
-/* .debug header nav{
-    height: 100px;
-    background-color: red;
-} */
+.jumbotron .jumbo-content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
 
-/* .debug header .jumbotron{
-    height: calc(100% - 100px);
-    background-color: tomato;
-} */
+.jumbo-content h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
 
+.jumbo-content div{
+    margin: 20px 0;
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.jumbo-content button{
+    margin: 0 10px;
+    font-size: 20px;
+}
