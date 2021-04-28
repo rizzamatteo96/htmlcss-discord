@@ -227,32 +227,47 @@ footer .container{
 footer section:first-child{
     float: left;
     width: 300px;
+    margin-right: 100px;
 }
 
 footer section:not(:first-child){
     float: left;
-    width: calc((100% - 300px) / 4 - 10px);
+    width: calc((100% - 400px) / 4 - 10px);
     margin-left: 10px;
 }
 
-
-/* DEBUG - CANCELLAMI */
-.debug footer{
-    height: 600px;
+footer .container section h2{
+    color: #7289da;
+    padding-bottom: 10px;
 }
 
-.debug footer .container{
-    height: 100%;
+footer .container section:first-child h2{
+    font-size: 35px;
 }
 
-.debug footer section:first-child{
-    height: 100%;
-    background-color: blueviolet;
-    border: 1px solid black;
+footer ul{
+    list-style: none;
+    line-height: 35px;
 }
 
-.debug footer section:not(:first-child){
-    height: 100%;
-    background-color: blueviolet;
-    border: 1px solid black;
+footer ul li{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+footer .lingua{
+    color: white;
+    margin: 20px 0;
+}
+
+footer .lingua img{
+    width: 30px;
+    vertical-align: middle;
+}
+
+.social-icon i{
+    font-size: 30px;
+    color: white;
+    margin-right: 20px;
 }
