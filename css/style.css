@@ -183,10 +183,14 @@ main section{
     padding-top: 25px;
 }
 
-section .white-bg{
+.white-bg{
     background-color: #fff;
 }
 
-section .grey-bg{
+.grey-bg{
+    background-color: #f3f4f5;
+}
+
+main{
     background-color: #f3f4f5;
 }
