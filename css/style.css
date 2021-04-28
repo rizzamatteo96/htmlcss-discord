@@ -70,6 +70,11 @@ nav .btn{
     padding: 10px 15px;
 }
 
+nav .btn a{
+    text-decoration: none;
+    color: black;
+}
+
 /* button */
 .btn{
     padding: 15px 30px;
@@ -213,9 +218,41 @@ main .waves:first-child{
 footer{
     background-color: #23272a;
     width: 100%;
-    height: 400px;
+}
+
+footer .container{
+    padding: 100px 0;
+}
+
+footer section:first-child{
+    float: left;
+    width: 300px;
+}
+
+footer section:not(:first-child){
+    float: left;
+    width: calc((100% - 300px) / 4 - 10px);
+    margin-left: 10px;
 }
 
 
-
 /* DEBUG - CANCELLAMI */
+.debug footer{
+    height: 600px;
+}
+
+.debug footer .container{
+    height: 100%;
+}
+
+.debug footer section:first-child{
+    height: 100%;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.debug footer section:not(:first-child){
+    height: 100%;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
