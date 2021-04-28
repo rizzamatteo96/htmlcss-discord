@@ -182,12 +182,12 @@ main section:first-child{
     padding: 50px 200px 0 0;
 }
 
-.sec-content .sec-title{
+.sec-title{
     font-size: 40px;
     font-weight: 700;
 }
 
-.sec-content .sec-text{
+.sec-text{
     line-height: 25px;
     padding-top: 25px;
 }
@@ -213,6 +213,33 @@ main .waves:first-child{
     position: relative;
     top: 0;
 }
+
+/* special section */
+#special .text{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn.bl-wh{
+    background-color: #8ea1e1;
+    color: white;
+}
+
+#special .btn{
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 50px 0 100px 0;
+}
+
+.sec-sub-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
 
 /* footer */
 footer{
@@ -276,11 +303,6 @@ footer .lingua img{
     border-top: 1px solid #7289da;
     margin: 40px 0;
     padding-top: 40px;
-}
-
-.footer-bottom .btn.bl-wh{
-    background-color: #8ea1e1;
-    color: white;
 }
 
 .footer-bottom .logo{
