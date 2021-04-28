@@ -198,3 +198,8 @@ main section{
 main{
     background-color: #f3f4f5;
 }
+
+main .waves{
+    position: relative;
+    top: 5px;
+}
