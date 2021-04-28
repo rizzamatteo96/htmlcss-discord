@@ -173,6 +173,10 @@ main section{
     padding: 50px 0 0 200px;
 }
 
+.sec-content.pic-dx>:last-child{
+    padding: 50px 200px 0 0;
+}
+
 .sec-content .sec-title{
     font-size: 40px;
     font-weight: 700;
