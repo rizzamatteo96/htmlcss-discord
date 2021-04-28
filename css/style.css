@@ -50,7 +50,7 @@ header nav ul{
     min-width: 490px;
 }
 
-header nav button{
+header nav .btn{
     right: 0;
 }
 
@@ -131,16 +131,26 @@ nav .btn{
     font-size: 20px;
 }
 
-.jumbo-content button{
+.jumbo-content .btn{
+    display: inline-block;
     margin: 0 10px;
     font-size: 20px;
 }
 
+.jumbo-content .btn.wh-bk a{
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo-content .btn.bk-wh a{
+    text-decoration: none;
+    color: white;
+}
 
 /* main section */
 main section{
     position: relative;
-    padding: 100px 0;
+    padding-top: 100px;
 }
 
 .sec-content.pic-sx>*{
@@ -171,4 +181,12 @@ main section{
 .sec-content .sec-text{
     line-height: 25px;
     padding-top: 25px;
+}
+
+section .white-bg{
+    background-color: #fff;
+}
+
+section .grey-bg{
+    background-color: #f3f4f5;
 }
