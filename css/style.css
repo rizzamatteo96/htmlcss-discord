@@ -4,3 +4,34 @@
     box-sizing: border-box;
 }
 
+header{
+    width: 100%;
+}
+
+header nav{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jumbotron{
+    width: 100%;
+}
+
+
+
+
+/* DEBUG - DA ELIMINARE*/
+.debug header{
+    height: 400px;
+}
+
+.debug header nav{
+    height: 100px;
+    background-color: red;
+}
+
+.debug header .jumbotron{
+    height: calc(100% - 100px);
+    background-color: tomato;
+}
+
