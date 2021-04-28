@@ -271,3 +271,22 @@ footer .lingua img{
     color: white;
     margin-right: 20px;
 }
+
+.footer-bottom{
+    border-top: 1px solid #7289da;
+    margin: 40px 0;
+    padding-top: 40px;
+}
+
+.footer-bottom .btn.bl-wh{
+    background-color: #8ea1e1;
+    color: white;
+}
+
+.footer-bottom .logo{
+    float: left;
+}
+
+.footer-bottom .btn{
+    float: right;
+}
