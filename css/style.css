@@ -204,14 +204,8 @@ main{
     background-color: #f3f4f5;
 }
 
-main .waves:last-child{
-    position: relative;
-    top: 5px;
-}
-
-main .waves:first-child{
-    position: relative;
-    top: 0;
+main .waves svg{
+    display: block;
 }
 
 /* special section */
